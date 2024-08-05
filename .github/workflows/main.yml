@@ -62,12 +62,7 @@ jobs:
             export/release/android/haxe/
             export/release/android/obj/
           key: cache-android-build
-
-      - name: Install Libraries
-        run: |
-          haxelib install hmm --quiet
-          haxelib run hmm install --quiet
-
+          
       - name: Configure Android
         run: |
           haxelib run lime config ANDROID_SDK $ANDROID_HOME
