@@ -1,0 +1,80 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				215,
+				-161
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down"
+		},
+		{
+			"offsets": [
+				187,
+				-153
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "up"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				221,
+				-154
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				176,
+				-161
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				216,
+				-158
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "idle",
+			"indices": []
+		}
+	],
+	"vocals_file": "bfmono",
+	"no_antialiasing": true,
+	"image": "characters/BFNoobSprite",
+	"position": [
+		280,
+		180
+	],
+	"healthicon": "bf-do-roblox",
+	"flip_x": true,
+	"healthbar_colors": [
+		46,
+		36,
+		102
+	],
+	"camera_position": [
+		400,
+		70
+	],
+	"sing_duration": 6.1,
+	"scale": 1.4,
+	"_editor_isPlayer": true
+}

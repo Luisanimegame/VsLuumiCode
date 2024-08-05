@@ -1,0 +1,150 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Left"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Down"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Up"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Right"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "danceLeft",
+			"indices": [],
+			"name": "Idle2"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "danceRight",
+			"indices": [],
+			"name": "Idle1"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8
+			],
+			"fps": 24,
+			"anim": "Queijo",
+			"loop": false,
+			"name": "Huh"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15
+			],
+			"fps": 24,
+			"anim": "Que",
+			"loop": false,
+			"name": "Huh"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22
+			],
+			"fps": 24,
+			"anim": "Voltar Idle",
+			"loop": false,
+			"name": "Huh"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Bonnysneww",
+	"position": [
+		-10,
+		150
+	],
+	"healthicon": "bonny",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		235,
+		115
+	],
+	"camera_position": [
+		30,
+		30
+	],
+	"sing_duration": 6.1,
+	"scale": 1.3
+}
