@@ -64,17 +64,17 @@ jobs:
             export/release/android/obj/
           key: cache-android-build
 
-      - name: Installing Libraries
+      - -lname: Install Libraries
         run: |
           haxelib install hmm --quiet
           haxelib run hmm install --quiet
-          
+
       - name: Configure Android
         run: |
           haxelib run lime config ANDROID_SDK $ANDROID_HOME
-          haxelib run lime config ANDROID_NDK_ROOT $ANDROID_NDK_HOME
+          haxelib run lime config ANDROID_NDK_ROOT $ANDROID_NDK_LATEST_HOME
           haxelib run lime config JAVA_HOME $JAVA_HOME
-          haxelib run lime config ANDROID_SETUP true
+          haxelib run lime config ANDROID_SETUP true 
         env:
           ANDROID_NDK_HOME: ${{ steps.setup-ndk.outputs.ndk-path }}
 
