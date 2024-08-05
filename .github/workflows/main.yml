@@ -8,9 +8,9 @@ jobs:
         uses: actions/checkout@main
 
       - name: Setup Haxe
-        uses: krdlab/setup-haxe@master
+        uses: krdlab/setup-haxe@v1.2.0
         with:
-          haxe-version: 4.3.4
+          haxe-version: 4.2.5
 
       - name: Install Libraries
         run: |
@@ -23,7 +23,7 @@ jobs:
       - name: Upload Artifact
         uses: actions/upload-artifact@main
         with:
-          name: VsLuumiWindows
+          name: windowsBuild
           path: export\release\windows\bin\*
           if-no-files-found: error
   Android:
@@ -36,12 +36,12 @@ jobs:
         uses: actions/setup-java@main
         with:
           distribution: 'temurin'
-          java-version: '11'
+          java-version: '17'
 
       - name: Setup Haxe
-        uses: krdlab/setup-haxe@master
+        uses: krdlab/setup-haxe@v1.2.0
         with:
-          haxe-version: 4.3.4
+          haxe-version: 4.2.5
 
       - name: Install Libraries
         run: |
@@ -61,7 +61,7 @@ jobs:
       - name: Upload Artifact
         uses: actions/upload-artifact@main
         with:
-          name: VsLuumiAndroid
+          name: androidBuild
           path: export/release/android/bin/app/build/outputs/apk/debug
           if-no-files-found: error
           
