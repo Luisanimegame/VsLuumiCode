@@ -16,13 +16,20 @@
       "name": "extension-androidtools",
       "type": "git",
       "ref": "main",
-      "url": "https://github.com/MAJigsaw77/extension-androidtools"
+      "url": "https://github.com/MobilePorting/extension-androidtools-0.6.3"
+    },
+    {
+      "name": "flixel-tools",
+      "type": "haxelib"
+    },
+    {
+      "name": "hxcpp-debug-server",
+      "type": "haxelib"
     },
     {
       "name": "flixel",
-      "type": "git",
-      "ref": "main",
-      "url": "https://github.com/MobilePorting/flixel-0.6.3"
+      "type": "haxelib",
+      "version": "4.11.0"
     },
     {
       "name": "flixel-addons",
@@ -43,19 +50,19 @@
       "name": "hxCodec",
       "type": "git",
       "ref": "main",
-      "url": "https://github.com/MobilePorting/hxCodec-0.6.3"
+      "url": "https://github.com/MobilePorting/hxCodec-0.6.3.git"
     },
     {
       "name": "hxcpp",
       "type": "git",
       "ref": "master",
-      "url": "https://github.com/mcagabe19-stuff/hxcpp"
+      "url": "https://github.com/mcagabe19-stuff/hxcpp.git"
     },
     {
       "name": "lime",
       "type": "git",
-      "ref": "develop",
-      "url": "https://github.com/mcagabe19-stuff/lime"
+      "ref": "main",
+      "url": "https://github.com/MobilePorting/lime-0.6.3.git"
     },
     {
       "name": "openfl",
