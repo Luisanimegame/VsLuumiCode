@@ -4,7 +4,7 @@ jobs:
   Windows:
     runs-on: windows-latest
     steps:
-      - name: Checkout
+- name: Checkout
         uses: actions/checkout@main
 
       - name: Setup Haxe
@@ -28,26 +28,25 @@ jobs:
           if-no-files-found: warn
   Android:
     runs-on: ubuntu-latest
-    permissions:
-        contents: write
-        actions: write
     steps:
       - name: Checkout
         uses: actions/checkout@main
-        with:
-          submodules: true
 
-      - name: Setup Android NDK
-        id: setup-ndk
-        uses: nttld/setup-ndk@main
-        with:
-          ndk-version: r21e
       - name: Setup Java JDK
-
         uses: actions/setup-java@main
         with:
-          distribution: 'zulu'
-          java-version: '11'
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: Setup Haxe
+        uses: krdlab/setup-haxe@v1.2.0
+        with:
+          haxe-version: 4.2.5
+
+      - name: Install Libraries
+        run: |
+          haxelib install hmm --quiet
+          haxelib run hmm install --quiet
 
       - name: Setup Haxe
         uses: krdlab/setup-haxe@master
