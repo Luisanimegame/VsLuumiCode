@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Free texture packer v0.6.7 http://free-tex-packer.com
+-->
+<TextureAtlas imagePath="Pyliee.png" width="1281" height="940">
+  <SubTexture name="Idle0002.png" x="0" y="0"  width="229" height="300" frameX="-176" frameY="-231" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Idle0004.png" x="229" y="0"  width="227" height="301" frameX="-177" frameY="-230" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Idle0000.png" x="0" y="300"  width="219" height="320" frameX="-178" frameY="-210" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Idle0008.png" x="456" y="0"  width="218" height="320" frameX="-178" frameY="-210" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Right0000.png" x="219" y="301"  width="191" height="320" frameX="-236" frameY="-214" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Right0005.png" x="0" y="620"  width="188" height="320" frameX="-230" frameY="-214" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Idle0006.png" x="674" y="0"  width="218" height="319" frameX="-178" frameY="-211" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Left0000.png" x="892" y="0"  width="198" height="306" frameX="-169" frameY="-225" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Left0002.png" x="1090" y="0"  width="191" height="308" frameX="-179" frameY="-222" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Right0002.png" x="892" y="306"  width="188" height="318" frameX="-233" frameY="-215" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Left0005.png" x="188" y="621"  width="190" height="312" frameX="-183" frameY="-219" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Idle0001.png" x="0" y="300"  width="219" height="320" frameX="-178" frameY="-210" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Idle0003.png" x="0" y="0"  width="229" height="300" frameX="-176" frameY="-231" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Idle0005.png" x="229" y="0"  width="227" height="301" frameX="-177" frameY="-230" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Idle0007.png" x="674" y="0"  width="218" height="319" frameX="-178" frameY="-211" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Idle0009.png" x="456" y="0"  width="218" height="320" frameX="-178" frameY="-210" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Idle0010.png" x="456" y="0"  width="218" height="320" frameX="-178" frameY="-210" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Left0001.png" x="892" y="0"  width="198" height="306" frameX="-169" frameY="-225" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Left0003.png" x="1090" y="0"  width="191" height="308" frameX="-179" frameY="-222" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Left0004.png" x="1090" y="0"  width="191" height="308" frameX="-179" frameY="-222" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Right0001.png" x="219" y="301"  width="191" height="320" frameX="-236" frameY="-214" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Right0003.png" x="892" y="306"  width="188" height="318" frameX="-233" frameY="-215" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Right0004.png" x="892" y="306"  width="188" height="318" frameX="-233" frameY="-215" frameWidth="640" frameHeight="640"/>
+</TextureAtlas>

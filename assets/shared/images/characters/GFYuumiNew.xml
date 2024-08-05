@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Free texture packer v0.6.7 http://free-tex-packer.com
+-->
+<TextureAtlas imagePath="GFYuumiNew.png" width="908" height="533">
+  <SubTexture name="gfidle0002.png" x="0" y="0"  width="187" height="262" frameX="-240" frameY="-240" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="gfidle0004.png" x="187" y="0"  width="185" height="263" frameX="-242" frameY="-238" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="gfidle0016.png" x="0" y="262"  width="171" height="271" frameX="-242" frameY="-230" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="gfidle0014.png" x="372" y="0"  width="182" height="267" frameX="-230" frameY="-234" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="gfidle0000.png" x="171" y="263"  width="169" height="270" frameX="-245" frameY="-230" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="gfidle0012.png" x="554" y="0"  width="182" height="266" frameX="-228" frameY="-235" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="gfidle0006.png" x="736" y="0"  width="172" height="268" frameX="-244" frameY="-232" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="gfidle0001.png" x="171" y="263"  width="169" height="270" frameX="-245" frameY="-230" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="gfidle0008.png" x="171" y="263"  width="169" height="270" frameX="-245" frameY="-230" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="gfidle0009.png" x="171" y="263"  width="169" height="270" frameX="-245" frameY="-230" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="gfidle0010.png" x="171" y="263"  width="169" height="270" frameX="-245" frameY="-230" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="gfidle0011.png" x="171" y="263"  width="169" height="270" frameX="-245" frameY="-230" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="gfidle0018.png" x="171" y="263"  width="169" height="270" frameX="-245" frameY="-230" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="gfidle0019.png" x="171" y="263"  width="169" height="270" frameX="-245" frameY="-230" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="gfidle0020.png" x="171" y="263"  width="169" height="270" frameX="-245" frameY="-230" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="gfidle0003.png" x="0" y="0"  width="187" height="262" frameX="-240" frameY="-240" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="gfidle0005.png" x="187" y="0"  width="185" height="263" frameX="-242" frameY="-238" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="gfidle0007.png" x="736" y="0"  width="172" height="268" frameX="-244" frameY="-232" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="gfidle0013.png" x="554" y="0"  width="182" height="266" frameX="-228" frameY="-235" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="gfidle0015.png" x="372" y="0"  width="182" height="267" frameX="-230" frameY="-234" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="gfidle0017.png" x="0" y="262"  width="171" height="271" frameX="-242" frameY="-230" frameWidth="640" frameHeight="640"/>
+</TextureAtlas>

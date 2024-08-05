@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Free texture packer v0.6.7 http://free-tex-packer.com
+-->
+<TextureAtlas imagePath="KightRetake2.png" width="3927" height="2330">
+  <SubTexture name="ALD0000.png" x="0" y="0"  width="491" height="92" frameX="-73" frameY="-453" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="ALD0002.png" x="491" y="0"  width="449" height="109" frameX="-92" frameY="-435" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Eoq0000.png" x="0" y="92"  width="363" height="430" frameX="-179" frameY="-123" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="ALD0005.png" x="940" y="0"  width="405" height="117" frameX="-115" frameY="-427" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Eoq0002.png" x="363" y="109"  width="361" height="429" frameX="-181" frameY="-124" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Up0000.png" x="0" y="522"  width="267" height="423" frameX="-204" frameY="-130" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="ALL0000.png" x="1345" y="0"  width="381" height="301" frameX="-258" frameY="-192" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Up0002.png" x="724" y="117"  width="275" height="421" frameX="-202" frameY="-132" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Up0003.png" x="999" y="117"  width="273" height="421" frameX="-202" frameY="-132" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Left0005.png" x="1726" y="0"  width="370" height="354" frameX="-238" frameY="-201" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Up0004.png" x="1272" y="301"  width="270" height="421" frameX="-202" frameY="-132" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Up0005.png" x="267" y="538"  width="269" height="419" frameX="-201" frameY="-134" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Eoq0004.png" x="536" y="538"  width="346" height="415" frameX="-196" frameY="-138" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Idle0008.png" x="882" y="538"  width="348" height="412" frameX="-197" frameY="-140" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Left0004.png" x="2096" y="0"  width="368" height="351" frameX="-241" frameY="-203" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Left0002.png" x="2464" y="0"  width="366" height="351" frameX="-241" frameY="-203" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Left0003.png" x="2830" y="0"  width="366" height="351" frameX="-241" frameY="-203" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="ALL0002.png" x="3196" y="0"  width="366" height="311" frameX="-261" frameY="-182" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Left0000.png" x="3562" y="0"  width="365" height="345" frameX="-246" frameY="-209" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Eoq0006.png" x="3196" y="311"  width="345" height="412" frameX="-197" frameY="-140" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Idle0000.png" x="1230" y="722"  width="345" height="412" frameX="-197" frameY="-140" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="ALL0005.png" x="1542" y="354"  width="359" height="318" frameX="-261" frameY="-175" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Idle0006.png" x="0" y="957"  width="349" height="409" frameX="-197" frameY="-143" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="ALU0000.png" x="0" y="1366"  width="309" height="388" frameX="-235" frameY="-57" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Right0005.png" x="349" y="957"  width="336" height="382" frameX="-83" frameY="-173" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Right0003.png" x="685" y="957"  width="344" height="380" frameX="-80" frameY="-174" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Right0002.png" x="1575" y="672"  width="343" height="380" frameX="-80" frameY="-174" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="ALR0000.png" x="1901" y="354"  width="337" height="168" frameX="-0" frameY="-398" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Right0004.png" x="1918" y="522"  width="341" height="380" frameX="-80" frameY="-174" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Right0000.png" x="2259" y="522"  width="349" height="379" frameX="-77" frameY="-176" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="ALU0002.png" x="2608" y="351"  width="316" height="376" frameX="-233" frameY="-68" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Idle0004.png" x="2608" y="727"  width="351" height="374" frameX="-196" frameY="-179" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Idle0002.png" x="1575" y="1052"  width="353" height="372" frameX="-195" frameY="-182" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="ALU0005.png" x="309" y="1366"  width="317" height="372" frameX="-234" frameY="-73" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Down0005.png" x="626" y="1339"  width="288" height="349" frameX="-208" frameY="-206" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Down0002.png" x="914" y="1339"  width="286" height="345" frameX="-213" frameY="-210" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="ALR0002.png" x="1029" y="1134"  width="327" height="173" frameX="-7" frameY="-393" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Down0003.png" x="1200" y="1307"  width="286" height="345" frameX="-213" frameY="-210" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Down0004.png" x="1200" y="1652"  width="286" height="345" frameX="-213" frameY="-210" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Down0000.png" x="1200" y="1997"  width="285" height="333" frameX="-216" frameY="-223" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="ALR0005.png" x="0" y="1754"  width="323" height="176" frameX="-10" frameY="-390" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="ALD0001.png" x="0" y="0"  width="491" height="92" frameX="-73" frameY="-453" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="ALD0003.png" x="491" y="0"  width="449" height="109" frameX="-92" frameY="-435" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="ALD0004.png" x="491" y="0"  width="449" height="109" frameX="-92" frameY="-435" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="ALL0001.png" x="1345" y="0"  width="381" height="301" frameX="-258" frameY="-192" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="ALL0003.png" x="3196" y="0"  width="366" height="311" frameX="-261" frameY="-182" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="ALL0004.png" x="3196" y="0"  width="366" height="311" frameX="-261" frameY="-182" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="ALR0001.png" x="1901" y="354"  width="337" height="168" frameX="-0" frameY="-398" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="ALR0003.png" x="1029" y="1134"  width="327" height="173" frameX="-7" frameY="-393" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="ALR0004.png" x="1029" y="1134"  width="327" height="173" frameX="-7" frameY="-393" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="ALU0001.png" x="0" y="1366"  width="309" height="388" frameX="-235" frameY="-57" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="ALU0003.png" x="2608" y="351"  width="316" height="376" frameX="-233" frameY="-68" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="ALU0004.png" x="2608" y="351"  width="316" height="376" frameX="-233" frameY="-68" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Down0001.png" x="1200" y="1997"  width="285" height="333" frameX="-216" frameY="-223" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Eoq0001.png" x="0" y="92"  width="363" height="430" frameX="-179" frameY="-123" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Eoq0003.png" x="363" y="109"  width="361" height="429" frameX="-181" frameY="-124" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Eoq0005.png" x="536" y="538"  width="346" height="415" frameX="-196" frameY="-138" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Eoq0007.png" x="3196" y="311"  width="345" height="412" frameX="-197" frameY="-140" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Eoq0008.png" x="3196" y="311"  width="345" height="412" frameX="-197" frameY="-140" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Idle0001.png" x="1230" y="722"  width="345" height="412" frameX="-197" frameY="-140" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Idle0003.png" x="1575" y="1052"  width="353" height="372" frameX="-195" frameY="-182" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Idle0005.png" x="2608" y="727"  width="351" height="374" frameX="-196" frameY="-179" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Idle0007.png" x="0" y="957"  width="349" height="409" frameX="-197" frameY="-143" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Idle0009.png" x="882" y="538"  width="348" height="412" frameX="-197" frameY="-140" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Idle0010.png" x="882" y="538"  width="348" height="412" frameX="-197" frameY="-140" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Left0001.png" x="3562" y="0"  width="365" height="345" frameX="-246" frameY="-209" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Right0001.png" x="2259" y="522"  width="349" height="379" frameX="-77" frameY="-176" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Up0001.png" x="0" y="522"  width="267" height="423" frameX="-204" frameY="-130" frameWidth="640" frameHeight="640"/>
+</TextureAtlas>

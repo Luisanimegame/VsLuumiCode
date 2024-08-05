@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Free texture packer v0.6.7 http://free-tex-packer.com
+-->
+<TextureAtlas imagePath="NotesNoHeatLifeGoToCyan.png" width="2069" height="1865">
+  <SubTexture name="Up0000.png" x="0" y="0"  width="252" height="480" frameX="-188" frameY="-72" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Left0000.png" x="252" y="0"  width="263" height="477" frameX="-158" frameY="-75" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Left0002.png" x="0" y="480"  width="255" height="470" frameX="-161" frameY="-82" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Up0002.png" x="255" y="477"  width="248" height="469" frameX="-188" frameY="-83" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Left0005.png" x="515" y="0"  width="257" height="465" frameX="-161" frameY="-87" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Up0005.png" x="503" y="477"  width="247" height="465" frameX="-186" frameY="-87" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Scary0010.png" x="772" y="0"  width="299" height="464" frameX="-177" frameY="-88" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="medo0005.png" x="750" y="465"  width="256" height="460" frameX="-171" frameY="-92" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Scary0012.png" x="0" y="950"  width="312" height="459" frameX="-174" frameY="-93" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Scary0014.png" x="312" y="946"  width="316" height="459" frameX="-174" frameY="-93" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Scary0016.png" x="628" y="942"  width="253" height="459" frameX="-174" frameY="-93" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="medo0001.png" x="1071" y="0"  width="258" height="459" frameX="-174" frameY="-93" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="medo0002.png" x="1071" y="459"  width="256" height="459" frameX="-171" frameY="-93" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="medo0003.png" x="881" y="925"  width="253" height="459" frameX="-174" frameY="-93" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Idle0000.png" x="1329" y="0"  width="243" height="457" frameX="-189" frameY="-94" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="medo0004.png" x="1134" y="918"  width="253" height="457" frameX="-175" frameY="-95" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Right0005.png" x="0" y="1409"  width="246" height="456" frameX="-222" frameY="-96" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Idle0006.png" x="246" y="1409"  width="247" height="453" frameX="-190" frameY="-99" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Right0000.png" x="493" y="1405"  width="253" height="453" frameX="-228" frameY="-99" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Right0002.png" x="746" y="1401"  width="246" height="452" frameX="-227" frameY="-100" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Scary0008.png" x="992" y="1384"  width="249" height="437" frameX="-222" frameY="-115" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Scary0006.png" x="1241" y="1375"  width="251" height="434" frameX="-228" frameY="-118" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Down0005.png" x="1572" y="0"  width="251" height="420" frameX="-198" frameY="-132" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Down0002.png" x="1572" y="420"  width="251" height="417" frameX="-203" frameY="-135" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Idle0004.png" x="1492" y="837"  width="246" height="414" frameX="-215" frameY="-138" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Down0000.png" x="1492" y="1251"  width="253" height="410" frameX="-208" frameY="-142" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Idle0002.png" x="1823" y="0"  width="246" height="409" frameX="-221" frameY="-143" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Down0001.png" x="1492" y="1251"  width="253" height="410" frameX="-208" frameY="-142" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Down0003.png" x="1572" y="420"  width="251" height="417" frameX="-203" frameY="-135" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Down0004.png" x="1572" y="420"  width="251" height="417" frameX="-203" frameY="-135" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Idle0001.png" x="1329" y="0"  width="243" height="457" frameX="-189" frameY="-94" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Idle0008.png" x="1329" y="0"  width="243" height="457" frameX="-189" frameY="-94" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Idle0009.png" x="1329" y="0"  width="243" height="457" frameX="-189" frameY="-94" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Idle0010.png" x="1329" y="0"  width="243" height="457" frameX="-189" frameY="-94" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Scary0000.png" x="1329" y="0"  width="243" height="457" frameX="-189" frameY="-94" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Scary0001.png" x="1329" y="0"  width="243" height="457" frameX="-189" frameY="-94" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Scary0002.png" x="1329" y="0"  width="243" height="457" frameX="-189" frameY="-94" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Scary0003.png" x="1329" y="0"  width="243" height="457" frameX="-189" frameY="-94" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Scary0004.png" x="1329" y="0"  width="243" height="457" frameX="-189" frameY="-94" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Scary0005.png" x="1329" y="0"  width="243" height="457" frameX="-189" frameY="-94" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Idle0003.png" x="1823" y="0"  width="246" height="409" frameX="-221" frameY="-143" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Idle0005.png" x="1492" y="837"  width="246" height="414" frameX="-215" frameY="-138" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Idle0007.png" x="246" y="1409"  width="247" height="453" frameX="-190" frameY="-99" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Left0001.png" x="252" y="0"  width="263" height="477" frameX="-158" frameY="-75" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Left0003.png" x="0" y="480"  width="255" height="470" frameX="-161" frameY="-82" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Left0004.png" x="0" y="480"  width="255" height="470" frameX="-161" frameY="-82" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Right0001.png" x="493" y="1405"  width="253" height="453" frameX="-228" frameY="-99" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Right0003.png" x="746" y="1401"  width="246" height="452" frameX="-227" frameY="-100" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Right0004.png" x="746" y="1401"  width="246" height="452" frameX="-227" frameY="-100" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Scary0007.png" x="1241" y="1375"  width="251" height="434" frameX="-228" frameY="-118" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Scary0009.png" x="992" y="1384"  width="249" height="437" frameX="-222" frameY="-115" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Scary0011.png" x="772" y="0"  width="299" height="464" frameX="-177" frameY="-88" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Scary0013.png" x="0" y="950"  width="312" height="459" frameX="-174" frameY="-93" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Scary0015.png" x="312" y="946"  width="316" height="459" frameX="-174" frameY="-93" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Scary0017.png" x="628" y="942"  width="253" height="459" frameX="-174" frameY="-93" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="medo0000.png" x="628" y="942"  width="253" height="459" frameX="-174" frameY="-93" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Up0001.png" x="0" y="0"  width="252" height="480" frameX="-188" frameY="-72" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Up0003.png" x="255" y="477"  width="248" height="469" frameX="-188" frameY="-83" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Up0004.png" x="255" y="477"  width="248" height="469" frameX="-188" frameY="-83" frameWidth="640" frameHeight="640"/>
+</TextureAtlas>

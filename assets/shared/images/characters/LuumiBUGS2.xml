@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Free texture packer v0.6.7 http://free-tex-packer.com
+-->
+<TextureAtlas imagePath="LuumiBUGS2.png" width="1088" height="872">
+  <SubTexture name="Bug20000" x="0" y="0"  width="301" height="174" frameX="-119" frameY="-335" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Bug20002" x="301" y="0"  width="283" height="189" frameX="-120" frameY="-320" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Bug10004" x="0" y="174"  width="230" height="340" frameX="-162" frameY="-120" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Bug20004" x="584" y="0"  width="278" height="192" frameX="-125" frameY="-316" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Bug10002" x="230" y="189"  width="229" height="340" frameX="-159" frameY="-120" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Bug10008" x="0" y="514"  width="228" height="340" frameX="-164" frameY="-120" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Bug10006" x="862" y="0"  width="226" height="340" frameX="-164" frameY="-120" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Bug10010" x="459" y="192"  width="226" height="340" frameX="-162" frameY="-120" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Bug10000" x="459" y="532"  width="196" height="340" frameX="-109" frameY="-50" frameWidth="500" frameHeight="500"/>
+  <SubTexture name="Bug10001" x="459" y="532"  width="196" height="340" frameX="-109" frameY="-50" frameWidth="500" frameHeight="500"/>
+  <SubTexture name="Bug10003" x="230" y="189"  width="229" height="340" frameX="-159" frameY="-120" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Bug10005" x="0" y="174"  width="230" height="340" frameX="-162" frameY="-120" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Bug10007" x="862" y="0"  width="226" height="340" frameX="-164" frameY="-120" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Bug10009" x="0" y="514"  width="228" height="340" frameX="-164" frameY="-120" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Bug10011" x="459" y="192"  width="226" height="340" frameX="-162" frameY="-120" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Bug10012" x="459" y="192"  width="226" height="340" frameX="-162" frameY="-120" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Bug20001" x="0" y="0"  width="301" height="174" frameX="-119" frameY="-335" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Bug20003" x="301" y="0"  width="283" height="189" frameX="-120" frameY="-320" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Bug20005" x="584" y="0"  width="278" height="192" frameX="-125" frameY="-316" frameWidth="640" frameHeight="640"/>
+</TextureAtlas>
