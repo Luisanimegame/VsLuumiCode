@@ -45,8 +45,10 @@ jobs:
 
       - name: Install Libraries
         run: |
+          haxelib setup ~/haxelib
           haxelib install hmm --quiet
           haxelib run hmm install --quiet
+          haxelib list
 
       - name: Setup Haxe
         uses: krdlab/setup-haxe@master
