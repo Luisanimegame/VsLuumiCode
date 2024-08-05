@@ -1,0 +1,62 @@
+{
+  "songs": [
+    [
+      "Sortudo",
+      "light",
+      [
+        151,
+        0,
+        245
+      ]
+    ],
+    [
+      "Haziler",
+      "Mick",
+      [
+        255,
+        255,
+        255
+      ]
+    ],
+    [
+      "NoobRappz",
+      "noobtown",
+      [
+        195,
+        162,
+        255
+      ]
+    ],
+    [
+      "VLighter",
+      "VSilver",
+      [
+        195,
+        162,
+        255
+        ]
+      ],
+      [
+      "Party Time",
+      "VSilver",
+      [
+        195,
+        162,
+        255
+      ]
+    ]
+  ],
+  "weekCharacters": [
+    "",
+    "",
+    ""
+  ],
+  "weekBackground": "",
+  "difficulties": "Hard",
+  "storyName": "Outras músicas k",
+  "weekBefore": "week2LORE",
+  "weekName": "Freeplay",
+  "startUnlocked": true,
+  "hideStoryMode": true,
+  "hideFreeplay": false
+}

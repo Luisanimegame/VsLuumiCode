@@ -1,0 +1,44 @@
+{
+  "songs": [
+    [
+      "Girl",
+      "newluumi",
+      [
+        195,
+		155,
+		255
+      ]
+    ],
+    [
+      "AllNight",
+      "bonny",
+      [
+        195,
+        155,
+        255
+      ]
+    ],
+    [
+      "Lore",
+      "FakerWuzzy",
+      [
+        195,
+        155,
+        255
+      ]
+    ]
+  ],
+  "weekCharacters": [
+    "",
+    "",
+    ""
+  ],
+  "weekBackground": "",
+  "storyName": "Vs Luumi",
+  "weekBefore": "tutorial",
+  "difficulties": "LegalMix, Hard",
+  "weekName": "Week Girl",
+  "startUnlocked": true,
+  "hideStoryMode": false,
+  "hideFreeplay": false
+}
