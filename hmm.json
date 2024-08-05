@@ -60,10 +60,8 @@
     },
     {
       "name": "lime",
-      "type": "git",
-      "ref": "develop",
-      "version": "7.9.0",
-      "url": "https://github.com/mcagabe19-stuff/lime"
+      "type": "haxelib",
+      "version": "7.9.0"
     },
     {
       "name": "openfl",
