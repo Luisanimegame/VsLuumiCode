@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Free texture packer v0.6.7 http://free-tex-packer.com
+-->
+<TextureAtlas imagePath="LUUMIHEY.png" width="668" height="904">
+  <SubTexture name="Pular0006.png" x="0" y="0"  width="225" height="330" frameX="-216" frameY="-163" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Pular0008.png" x="225" y="0"  width="222" height="326" frameX="-216" frameY="-168" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Pular0010.png" x="447" y="0"  width="221" height="330" frameX="-216" frameY="-171" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Pular0004.png" x="225" y="326"  width="185" height="294" frameX="-210" frameY="-266" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Pular0002.png" x="0" y="330"  width="189" height="288" frameX="-209" frameY="-271" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Pular0000.png" x="0" y="618"  width="199" height="286" frameX="-204" frameY="-274" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Pular0001.png" x="0" y="618"  width="199" height="286" frameX="-204" frameY="-274" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Pular0003.png" x="0" y="330"  width="189" height="288" frameX="-209" frameY="-271" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Pular0005.png" x="225" y="326"  width="185" height="294" frameX="-210" frameY="-266" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Pular0007.png" x="0" y="0"  width="225" height="330" frameX="-216" frameY="-163" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Pular0009.png" x="225" y="0"  width="222" height="326" frameX="-216" frameY="-168" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Pular0011.png" x="447" y="0"  width="221" height="330" frameX="-216" frameY="-171" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="Pular0012.png" x="447" y="0"  width="221" height="330" frameX="-216" frameY="-171" frameWidth="640" frameHeight="640"/>
+</TextureAtlas>
