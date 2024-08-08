@@ -1,7 +1,7 @@
 name: Android Build OG
 on: workflow_dispatch
 jobs:
-	Windows:
+  Windows:
     runs-on: windows-latest
     steps:
       - name: Checkout
@@ -38,7 +38,7 @@ jobs:
           name: Windows Build
           path: export\release\windows\bin\*
           if-no-files-found: error
-  Build:
+  Android:
     runs-on: ubuntu-latest
     permissions:
         contents: write
