@@ -1,7 +1,7 @@
 name: Android Build OG
 on: workflow_dispatch
 jobs:
-  Windows:
+  Lightindowns:
     runs-on: windows-latest
     steps:
       - name: Checkout
@@ -24,6 +24,7 @@ jobs:
           haxelib install flixel-addons 3.0.2
           haxelib git hxCodec https://github.com/SPLCoding/hxCodec-but-it-works-xd.git
           haxelib git linc_luajit https://github.com/Sirox228/linc_luajit
+          haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc
           haxelib install hscript
           haxelib git hscript-ex https://github.com/ianharrigan/hscript-ex
           haxelib install hxcpp-debug-server
@@ -38,7 +39,7 @@ jobs:
           name: Windows Build
           path: export\release\windows\bin\*
           if-no-files-found: error
-  Android:
+  LuumiDroid:
     runs-on: ubuntu-latest
     permissions:
         contents: write
