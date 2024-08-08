@@ -37,7 +37,7 @@ jobs:
           haxelib set lime 7.9.0
           haxelib set flixel 4.11.0
           haxelib set flixel-addons 3.0.2
-          haxelib set hxcpp https://github.com/mcagabe19-stuff/hxcpp
+          haxelib set hxcpp 4.2.1
           
       - name: Building
         run: haxelib run lime build windows
