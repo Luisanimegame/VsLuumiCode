@@ -1,63 +1,85 @@
 {
   "dependencies": [
     {
-      "name": "hxcpp",
-      "type": "haxelib",
-      "version": "4.2.1"
-    },
-    {
       "name": "lime",
       "type": "haxelib",
-      "version": "7.9.0"
+      "version": null
     },
     {
       "name": "openfl",
       "type": "haxelib",
-      "version": "9.1.0"
+      "version": null
     },
     {
       "name": "flixel",
       "type": "haxelib",
-      "version": "4.11.0"
-    },
-    {
-      "name": "flixel-tools",
-      "type": "haxelib"
-    }
-    {
-      "name": "flixel-ui",
-      "type": "haxelib"
+      "version": null
     },
     {
       "name": "flixel-addons",
       "type": "haxelib",
-      "version": "3.0.2"
+      "version": null
     },
     {
-      "name": "hscript",
-      "type": "haxelib"
+      "name": "flixel-tools",
+      "type": "haxelib",
+      "version": null
     },
     {
-      "name": "hxcpp-debug-server",
-      "type": "haxelib"
+      "name": "flixel-ui",
+      "type": "haxelib",
+      "version": null
+    },
+    {
+      "name": "hxcpp",
+      "type": "haxelib",
+      "version": null
+    },
+    {
+      "name": "tjson",
+      "type": "haxelib",
+      "version": null
+    },
+    {
+      "name": "hxjsonast",
+      "type": "haxelib",
+      "version": null
     },
     {
       "name": "hxCodec",
-      "type": "git",
-      "ref": "main",
-      "url": "https://github.com/SPLCoding/hxCodec-but-it-works-xd.git"
+      "type": "haxelib",
+      "version": "2.5.1"
     },
     {
-      "name": "linc_luajit",
+      "name": "hscript",
+      "type": "haxelib",
+      "version": null
+    },
+    {
+      "name": "hxcpp-debug-server",
+      "type": "haxelib",
+      "version": null
+    },
+    {
+      "name": "discord_rpc",
       "type": "git",
-      "ref": "main",
-      "url": "https://github.com/Sirox228/linc_luajit"
+      "dir": null,
+      "ref": "master",
+      "url": "https://github.com/Aidan63/linc_discord-rpc"
     },
     {
       "name": "hscript-ex",
       "type": "git",
-      "ref": "main",
+      "dir": null,
+      "ref": "master",
       "url": "https://github.com/ianharrigan/hscript-ex"
+    },
+    {
+      "name": "linc_luajit",
+      "type": "git",
+      "dir": null,
+      "ref": "master",
+      "url": "https://github.com/nebulazorua/linc_luajit"
     }
   ]
 }
