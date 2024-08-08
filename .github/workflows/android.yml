@@ -30,7 +30,7 @@ jobs:
           haxelib install hxcpp-debug-server
           haxelib list
 
-        - name: Configure Windonws
+      - name: Configure Windonws
         run: |
           haxelib run lime setup -alias -y
           haxelib set openfl 9.1.0
