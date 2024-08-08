@@ -320,9 +320,9 @@ class MainMenuState extends MusicBeatState
 
 			if (controls.ACCEPT)
 			{
-				if (optionShit[curSelected] == 'donate')
+				if (optionShit[curSelected] == 'lightwuz')
 				{
-					CoolUtil.browserLoad('https://ninja-muffin24.itch.io/funkin');
+					CoolUtil.browserLoad('https://youtube.com/@lightwuz?si=SOeFeJW4SlZjM9NO');
 				}
 				else
 				{
@@ -352,28 +352,19 @@ class MainMenuState extends MusicBeatState
 								switch (daChoice)
 								{
 									case 'story_mode':
-										PlayState.storyPlaylist = ['guy', 'midnight', 'terminated'];
-										PlayState.isStoryMode = true;
-
-										PlayState.SONG = Song.loadFromJson(PlayState.storyPlaylist[0].toLowerCase() + '-hard', PlayState.storyPlaylist[0].toLowerCase());
-										PlayState.campaignScore = 0;
-										PlayState.campaignMisses = 0;
-										LoadingState.loadAndSwitchState(new PlayState(), true);
-										FreeplayState.destroyFreeplayVocals();
+										if (FlxG.save.data.firstTimeFreeplay) MusicBeatState.switchState(new StoryMenuState());
+										FlxG.sound.music.fadeOut(1);
 									case 'freeplay':
 										if (FlxG.save.data.firstTimeFreeplay) MusicBeatState.switchState(new FreeplayState());
 										FlxG.sound.music.fadeOut(1);
 									case 'options':
 										LoadingState.loadAndSwitchState(new options.OptionsState());
-									case 'exit':
-										Sys.exit(0);
 								}
 							});
 						}
 					});
 				}
 			}
-		}
 
 		super.update(elapsed);
 
