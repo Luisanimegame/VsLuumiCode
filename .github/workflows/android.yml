@@ -14,8 +14,9 @@ jobs:
 
       - name: Install Libraries
         run: |
+          haxelib setup ~/haxelib
           haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc
-          haxelib install hxcpp 4.2.1 --quiet
+          haxelib git hxcpp https://github.com/mcagabe19-stuff/hxcpp --quiet
           haxelib install lime 7.9.0
           haxelib install openfl 9.1.0
           haxelib install flixel 4.11.0
@@ -27,6 +28,7 @@ jobs:
           haxelib install hscript
           haxelib git hscript-ex https://github.com/ianharrigan/hscript-ex
           haxelib install hxcpp-debug-server
+          haxelib list
           
       - name: Configure Windonws
         run: |
