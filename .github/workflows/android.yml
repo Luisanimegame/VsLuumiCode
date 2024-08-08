@@ -1,4 +1,4 @@
-name: Android Build OG
+name: Build
 on: workflow_dispatch
 jobs:
   Luundows:
@@ -14,7 +14,6 @@ jobs:
 
       - name: Install Libraries
         run: |
-          haxelib setup ~/haxelib
           haxelib git hxcpp https://github.com/mcagabe19-stuff/hxcpp
           haxelib git linc_luajit https://github.com/mcagabe19-stuff/linc_luajit-legacy
           haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc
