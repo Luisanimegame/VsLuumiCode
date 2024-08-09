@@ -133,7 +133,6 @@ class MainMenuState extends MusicBeatState
 
 		var Luumi:FlxSprite = new FlxSprite().loadGraphic(Paths.image('melu/screen-' + FlxG.random.int(1, 3)));
 		Luumi.updateHitbox();
-		Luumi.screenCenter();
 		add(Luumi);
 		
 		// magenta.scrollFactor.set();
