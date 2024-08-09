@@ -50,15 +50,13 @@ class MainMenuState extends MusicBeatState
 	];
 
 	var magenta:FlxSprite;
-	
-	var phonecords:FlxSprite;
-	var LuumiStory:FlxSprite;
-	var LightFree:FlxSprite;
-	var Bonnye:FlxSprite;
-	
 	var camFollow:FlxObject;
 	var camFollowPos:FlxObject;
 	var debugKeys:Array<FlxKey>;
+	
+	var LuumiStory:FlxSprite;
+	var LightFree:FlxSprite;
+	var Bonnye:FlxSprite;
 
 	override function create()
 	{
@@ -135,7 +133,6 @@ class MainMenuState extends MusicBeatState
 		phonecords.updateHitbox();
 		phonecords.screenCenter();
 		phonecords.antialiasing = false;
-		phonecords.visible = false;
 		add(phonecords);
 
 		var LuumiStory:FlxSprite = new FlxSprite().loadGraphic(Paths.image('melu/luumi_telefonadno'));
@@ -250,47 +247,6 @@ class MainMenuState extends MusicBeatState
 		{
 			FlxG.sound.music.volume += 0.5 * FlxG.elapsed;
 		}
-		
-		if (optionShit[curSelected] == 'story_mode')
-		{
-		changeItem(-1);
-		changeItem(1);
-		
-		LuumiStory.updateHitbox();
-		LuumiStory.visible = true;
-		phonecords.visible = true;
-		}
-		else
-		{
-		LuumiStory.visible = false;
-		phonecords.visible = false;
-		}
-		
-		if (optionShit[curSelected] == 'freeplay')
-		{
-		changeItem(-1);
-		changeItem(1);
-		
-		LightFree.updateHitbox();
-		LightFree.visible = true;
-		}
-		else
-		{
-		LightFree.visible = false;
-		}
-		
-		if (optionShit[curSelected] == 'options')
-		{
-		changeItem(-1);
-		changeItem(1);
-		
-		Bonnye.updateHitbox();
-		Bonnye.visible = true;
-		}
-		else
-		{
-		Bonnye.visible = false;
-		}
 
 		menubars_top.scrollX -= 1 * 60 * elapsed;
 		menubars_bottom.scrollX += 1 * 60 * elapsed;
@@ -299,6 +255,45 @@ class MainMenuState extends MusicBeatState
 
 		var lerpVal:Float = CoolUtil.boundTo(elapsed * 7.5, 0, 1);
 		camFollowPos.setPosition(FlxMath.lerp(camFollowPos.x, camFollow.x, lerpVal), FlxMath.lerp(camFollowPos.y, camFollow.y, lerpVal));
+		
+		if (optionShit[curSelected] == 'story_mode')
+		{
+			changeItem(-1);
+			changeItem(1);
+		
+			LuumiStory.updateHitbox();
+			LuumiStory.visible = true;
+		}
+		else
+		{
+			LuumiStory.visible = false;
+		}
+		
+		if (optionShit[curSelected] == 'freeplay')
+		{
+			changeItem(-1);
+			changeItem(1);
+		
+			LightFree.updateHitbox();
+			LightFree.visible = true;
+		}
+		else
+		{
+			LightFree.visible = false;
+		}
+		
+		if (optionShit[curSelected] == 'options')
+		{
+			changeItem(-1);
+			changeItem(1);
+		
+			Bonnye.updateHitbox();
+			Bonnye.visible = true;
+		}
+		else
+		{
+			Bonnye.visible = false;
+		}
 
 		if (!selectedSomethin)
 		{
@@ -358,8 +353,7 @@ class MainMenuState extends MusicBeatState
 								switch (daChoice)
 								{
 									case 'story_mode':
-										if (FlxG.save.data.firstTimeFreeplay) MusicBeatState.switchState(new StoryMenuState());
-										FlxG.sound.music.fadeOut(1);
+										MusicBeatState.switchState(new StoryMenuState());
 									case 'freeplay':
 										if (FlxG.save.data.firstTimeFreeplay) MusicBeatState.switchState(new FreeplayState());
 										FlxG.sound.music.fadeOut(1);
