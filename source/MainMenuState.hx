@@ -139,19 +139,16 @@ class MainMenuState extends MusicBeatState
 		var LuumiStory:FlxSprite = new FlxSprite().loadGraphic(Paths.image('melu/luumi_telefonadno'));
 		LuumiStory.updateHitbox();
 		LuumiStory.screenCenter();
-		LuumiStory.visible = false;
 		add(LuumiStory);
 		
 		var LightFree:FlxSprite = new FlxSprite().loadGraphic(Paths.image('melu/ligth_jongado'));
 		LightFree.updateHitbox();
 		LightFree.screenCenter();
-		LightFree.visible = false;
 		add(LightFree);
 		
 		var Bonnye:FlxSprite = new FlxSprite().loadGraphic(Paths.image('melu/bone_settings'));
 		Bonnye.updateHitbox();
 		Bonnye.screenCenter();
-		Bonnye.visible = false;
 		add(Bonnye);
 		
 		// magenta.scrollFactor.set();
