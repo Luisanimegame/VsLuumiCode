@@ -45,8 +45,7 @@ class MainMenuState extends MusicBeatState
 		'story_mode',
 		'freeplay',
 		'options',
-		'credits',
-		'lightwuz'
+		'credits'
 	];
 
 	var magenta:FlxSprite;
@@ -54,10 +53,10 @@ class MainMenuState extends MusicBeatState
 	var camFollowPos:FlxObject;
 	var debugKeys:Array<FlxKey>;
 	
-	var LuumiStory:FlxSprite;
-	var LightFree:FlxSprite;
-	var Bonnye:FlxSprite;
-
+	private var LuumiStory:FlxSprite = null;
+	private var LightFree:FlxSprite = null;
+	private var Bonnye:FlxSprite = null;
+	
 	override function create()
 	{
 		WeekData.loadTheFirstEnabledMod();
