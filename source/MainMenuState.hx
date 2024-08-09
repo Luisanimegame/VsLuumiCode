@@ -28,7 +28,7 @@ using StringTools;
 
 class MainMenuState extends MusicBeatState
 {
-	public static var psychEngineVersion:String = '0.5.2h'; //This is also used for Discord RPC
+	public static var psychEngineVersion:String = '0.3.0h'; //This is also used for Discord RPC
 	public static var curSelected:Int = 0;
 
 	var menuItems:FlxTypedGroup<FlxSprite>;
@@ -41,22 +41,25 @@ class MainMenuState extends MusicBeatState
 
 	var checkerboard:FlxTiledSprite;
 	
+	var LuumiStory:FlxSprite;
+	
+	var LightFree:FlxSprite;
+	
+	var Bonnye:FlxSprite;
+	
 	var optionShit:Array<String> = [
 		'story_mode',
 		'freeplay',
 		'options',
-		'credits'
+		'credits',
+		'lightwuz'
 	];
 
 	var magenta:FlxSprite;
 	var camFollow:FlxObject;
 	var camFollowPos:FlxObject;
 	var debugKeys:Array<FlxKey>;
-	
-	private var LuumiStory:FlxSprite = null;
-	private var LightFree:FlxSprite = null;
-	private var Bonnye:FlxSprite = null;
-	
+
 	override function create()
 	{
 		WeekData.loadTheFirstEnabledMod();
@@ -128,33 +131,26 @@ class MainMenuState extends MusicBeatState
 		add(menubars_bottom);
 
 		var phonecords:FlxSprite = new FlxSprite().loadGraphic(Paths.image('phonecord'));
-		phonecords.scrollFactor.set(0, 0);
 		phonecords.updateHitbox();
 		phonecords.screenCenter();
 		phonecords.antialiasing = false;
 		add(phonecords);
 
 		var LuumiStory:FlxSprite = new FlxSprite().loadGraphic(Paths.image('melu/luumi_telefonadno'));
-		LuumiStory.scrollFactor.set(0, 0);
 		LuumiStory.updateHitbox();
 		LuumiStory.screenCenter();
-		LuumiStory.antialiasing = false;
 		LuumiStory.visible = false;
 		add(LuumiStory);
 		
 		var LightFree:FlxSprite = new FlxSprite().loadGraphic(Paths.image('melu/ligth_jongado'));
-		LightFree.scrollFactor.set(0, 0);
 		LightFree.updateHitbox();
 		LightFree.screenCenter();
-		LightFree.antialiasing = false;
 		LightFree.visible = false;
 		add(LightFree);
 		
 		var Bonnye:FlxSprite = new FlxSprite().loadGraphic(Paths.image('melu/bone_settings'));
-		Bonnye.scrollFactor.set(0, 0);
 		Bonnye.updateHitbox();
 		Bonnye.screenCenter();
-		Bonnye.antialiasing = false;
 		Bonnye.visible = false;
 		add(Bonnye);
 		
@@ -190,7 +186,7 @@ class MainMenuState extends MusicBeatState
 
 		FlxG.camera.follow(camFollowPos, null, 1);
 
-		var versionShit:FlxText = new FlxText(12, FlxG.height - 44, 0, "Psych Engine v" + psychEngineVersion, 12);
+		var versionShit:FlxText = new FlxText(12, FlxG.height - 44, 0, "FNF': Luumi v" + psychEngineVersion, 12);
 		versionShit.scrollFactor.set();
 		versionShit.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		add(versionShit);
@@ -260,7 +256,6 @@ class MainMenuState extends MusicBeatState
 			changeItem(-1);
 			changeItem(1);
 		
-			LuumiStory.updateHitbox();
 			LuumiStory.visible = true;
 		}
 		else
@@ -273,7 +268,6 @@ class MainMenuState extends MusicBeatState
 			changeItem(-1);
 			changeItem(1);
 		
-			LightFree.updateHitbox();
 			LightFree.visible = true;
 		}
 		else
@@ -286,7 +280,6 @@ class MainMenuState extends MusicBeatState
 			changeItem(-1);
 			changeItem(1);
 		
-			Bonnye.updateHitbox();
 			Bonnye.visible = true;
 		}
 		else
