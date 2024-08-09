@@ -131,7 +131,7 @@ class MainMenuState extends MusicBeatState
 		phonecords.antialiasing = false;
 		add(phonecords);
 
-		var Luumi:FlxSprite = new FlxSprite().loadGraphic(Paths.image('melu/screen-' + FlxG.random.int(1, 8)));
+		var Luumi:FlxSprite = new FlxSprite().loadGraphic(Paths.image('melu/screen-' + FlxG.random.int(1, 3)));
 		Luumi.updateHitbox();
 		Luumi.screenCenter();
 		add(Luumi);
