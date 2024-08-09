@@ -28,7 +28,7 @@ using StringTools;
 
 class MainMenuState extends MusicBeatState
 {
-	public static var psychEngineVersion:String = '0.3.0h'; //This is also used for Discord RPC
+	public static var psychEngineVersion:String = '0.5.2h'; //This is also used for Discord RPC
 	public static var curSelected:Int = 0;
 
 	var menuItems:FlxTypedGroup<FlxSprite>;
@@ -40,12 +40,6 @@ class MainMenuState extends MusicBeatState
 	var menubars_bottom:FlxTiledSprite;
 
 	var checkerboard:FlxTiledSprite;
-	
-	var LuumiStory:FlxSprite;
-	
-	var LightFree:FlxSprite;
-	
-	var Bonnye:FlxSprite;
 	
 	var optionShit:Array<String> = [
 		'story_mode',
@@ -131,25 +125,16 @@ class MainMenuState extends MusicBeatState
 		add(menubars_bottom);
 
 		var phonecords:FlxSprite = new FlxSprite().loadGraphic(Paths.image('phonecord'));
+		phonecords.scrollFactor.set(0, 0);
 		phonecords.updateHitbox();
 		phonecords.screenCenter();
 		phonecords.antialiasing = false;
 		add(phonecords);
 
-		var LuumiStory:FlxSprite = new FlxSprite().loadGraphic(Paths.image('melu/luumi_telefonadno'));
-		LuumiStory.updateHitbox();
-		LuumiStory.screenCenter();
-		add(LuumiStory);
-		
-		var LightFree:FlxSprite = new FlxSprite().loadGraphic(Paths.image('melu/ligth_jongado'));
-		LightFree.updateHitbox();
-		LightFree.screenCenter();
-		add(LightFree);
-		
-		var Bonnye:FlxSprite = new FlxSprite().loadGraphic(Paths.image('melu/bone_settings'));
-		Bonnye.updateHitbox();
-		Bonnye.screenCenter();
-		add(Bonnye);
+		var Luumi:FlxSprite = new FlxSprite().loadGraphic(Paths.image('melu/screen-' + FlxG.random.int(1, 8)));
+		Luumi.updateHitbox();
+		Luumi.screenCenter();
+		add(Luumi);
 		
 		// magenta.scrollFactor.set();
 
@@ -183,7 +168,7 @@ class MainMenuState extends MusicBeatState
 
 		FlxG.camera.follow(camFollowPos, null, 1);
 
-		var versionShit:FlxText = new FlxText(12, FlxG.height - 44, 0, "FNF': Luumi v" + psychEngineVersion, 12);
+		var versionShit:FlxText = new FlxText(12, FlxG.height - 44, 0, "Psych Engine v" + psychEngineVersion, 12);
 		versionShit.scrollFactor.set();
 		versionShit.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		add(versionShit);
@@ -247,42 +232,6 @@ class MainMenuState extends MusicBeatState
 
 		var lerpVal:Float = CoolUtil.boundTo(elapsed * 7.5, 0, 1);
 		camFollowPos.setPosition(FlxMath.lerp(camFollowPos.x, camFollow.x, lerpVal), FlxMath.lerp(camFollowPos.y, camFollow.y, lerpVal));
-		
-		if (optionShit[curSelected] == 'story_mode')
-		{
-			changeItem(-1);
-			changeItem(1);
-		
-			LuumiStory.visible = true;
-		}
-		else
-		{
-			LuumiStory.visible = false;
-		}
-		
-		if (optionShit[curSelected] == 'freeplay')
-		{
-			changeItem(-1);
-			changeItem(1);
-		
-			LightFree.visible = true;
-		}
-		else
-		{
-			LightFree.visible = false;
-		}
-		
-		if (optionShit[curSelected] == 'options')
-		{
-			changeItem(-1);
-			changeItem(1);
-		
-			Bonnye.visible = true;
-		}
-		else
-		{
-			Bonnye.visible = false;
-		}
 
 		if (!selectedSomethin)
 		{
@@ -348,6 +297,8 @@ class MainMenuState extends MusicBeatState
 										FlxG.sound.music.fadeOut(1);
 									case 'options':
 										LoadingState.loadAndSwitchState(new options.OptionsState());
+									case 'exit':
+										Sys.exit(0);
 								}
 							});
 						}
