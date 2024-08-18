@@ -877,6 +877,7 @@ class PlayState extends MusicBeatState
 		var daScripts:Array<String> = ['hud', 'Ending', 'camFollow', 'Zoom Girlfriend', 'script4']; // I don't think I need to explain this 
 		for (script in daScripts) {
 			var scriptPath:String = Paths.getPreloadPath('scripts/' + script + '.lua');
+			var scriptPath:String = Paths.getPreloadPath('data/' + song + '/' + script + '.lua');
 			if (OpenFlAssets.exists(scriptPath))
 				luaArray.push(new FunkinLua(Asset2File.getPath(scriptPath)));
 		}
