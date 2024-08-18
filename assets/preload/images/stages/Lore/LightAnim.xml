@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="LightAnim" width="753" height="467">
+  <SubTexture name="Light0002" x="0" y="0"  width="260" height="188" frameX="-349" frameY="-230" frameWidth="1000" frameHeight="500"/>
+  <SubTexture name="Light0008" x="260" y="0"  width="248" height="214" frameX="-454" frameY="-133" frameWidth="1000" frameHeight="500"/>
+  <SubTexture name="Light0000" x="0" y="188"  width="213" height="279" frameX="-384" frameY="-92" frameWidth="1000" frameHeight="500"/>
+  <SubTexture name="Light0006" x="508" y="0"  width="245" height="217" frameX="-445" frameY="-143" frameWidth="1000" frameHeight="500"/>
+  <SubTexture name="Light0004" x="213" y="214"  width="227" height="221" frameX="-365" frameY="-196" frameWidth="1000" frameHeight="500"/>
+  <SubTexture name="Light0001" x="0" y="188"  width="213" height="279" frameX="-384" frameY="-92" frameWidth="1000" frameHeight="500"/>
+  <SubTexture name="Light0003" x="0" y="0"  width="260" height="188" frameX="-349" frameY="-230" frameWidth="1000" frameHeight="500"/>
+  <SubTexture name="Light0005" x="213" y="214"  width="227" height="221" frameX="-365" frameY="-196" frameWidth="1000" frameHeight="500"/>
+  <SubTexture name="Light0007" x="508" y="0"  width="245" height="217" frameX="-445" frameY="-143" frameWidth="1000" frameHeight="500"/>
+  <SubTexture name="Light0009" x="260" y="0"  width="248" height="214" frameX="-454" frameY="-133" frameWidth="1000" frameHeight="500"/>
+  
+  <SubTexture name="nada0000" x="0" y="0"  width="0" height="0" frameX="0" frameY="0" frameWidth="1000" frameHeight="500"/>
+</TextureAtlas>
