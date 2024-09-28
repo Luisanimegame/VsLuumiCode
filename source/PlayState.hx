@@ -2410,6 +2410,9 @@ class PlayState extends MusicBeatState
 					eventPushed(subEvent);
 				}
 			}
+		}
+	}
+}
 
 		for (section in noteData)
 		{
